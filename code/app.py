@@ -23,6 +23,7 @@ if st.button("Suche Film"):
 				st.markdown(f"**Jahr:** {movie['release_year']}")
 				st.markdown(f"**Regisseur:** {movie['director']}")
 				st.markdown(f"**Hauptcharaktere:** {movie['main_characters']}")
+				st.markdown(f"**IMDB Rating:** {movie['imdb_rating']}")
 				st.markdown("---")
 	else:
 		st.info("Bitte gib eine Handlung ein.")
