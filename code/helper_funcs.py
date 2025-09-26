@@ -3,8 +3,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel
-from dotenv import load_dotenv, find_dotenv
-load_dotenv(find_dotenv())
  
 #%% output structure
 class MyMovieOutput(BaseModel):
