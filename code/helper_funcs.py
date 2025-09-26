@@ -10,6 +10,7 @@ class MyMovieOutput(BaseModel):
     main_characters: str
     director: str
     release_year: str
+    imdb_rating: str
  
 class MyMoviesOutput(BaseModel):
     movies: list[MyMovieOutput]
