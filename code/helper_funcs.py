@@ -58,7 +58,8 @@ def get_movies_from_plot(plot: str) -> dict:
                 "title": movie.title,
                 "main_characters": movie.main_characters,
                 "director": movie.director,
-                "release_year": movie.release_year
+                "release_year": movie.release_year,
+                "imdb_rating": movie.imdb_rating
             }
             movies_dict["movies"].append(movie_data)
        
